@@ -2,5 +2,8 @@
 
 usage with ./main -h
 
-fist user should provide a valid port otherwise it will be 8080
-then the second must start with ./main -host {code give by the first client}
+first client usage: ./main -port 8080 -username Maxime
+
+then the second client should start with ./main -host {code give by the first client} -username Thomas
+
+I provide some test for the argument handling and the p2p network (host creation and connection)
